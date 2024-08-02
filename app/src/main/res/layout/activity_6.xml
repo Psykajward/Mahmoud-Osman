@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity"
+    android:background="@drawable/face_with_symbols_on_mouth_svgrepo_com">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="407dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="316dp"
+        android:text="a strong feeling of being upset or annoyed because of something wrong or bad
+the feeling that makes someone want to hurt other people,
+to shout, etc. : the feeling of being angry. He couldn't hide his anger with/at us. You could hear
+the anger in his voice. "
+        android:textColor="#AF1FCF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</RelativeLayout>

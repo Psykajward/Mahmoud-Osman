@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:background="#CD07C9">
+
+    <ImageButton
+        android:id="@+id/crying"
+        android:layout_width="68dp"
+        android:layout_height="74dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="176dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/crying_face_svgrepo_com" />
+
+    <ImageButton
+        android:id="@+id/cold"
+        android:layout_width="68dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/cold_face_svgrepo_com"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <ImageButton
+        android:id="@+id/scared"
+        android:layout_width="68dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/crying"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        app:srcCompat="@drawable/face_screaming_in_fear_svgrepo_com" />
+
+    <ImageButton
+        android:id="@+id/rage"
+        android:layout_width="68dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="343dp"
+        android:layout_marginBottom="409dp"
+        app:srcCompat="@drawable/face_with_symbols_on_mouth_svgrepo_com"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <ImageButton
+        android:id="@+id/fear"
+        android:layout_width="68dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="409dp"
+        app:srcCompat="@drawable/fearful_face_svgrepo_com" />
+
+    <ImageButton
+        android:id="@+id/hot"
+        android:layout_width="68dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="404dp"
+        app:srcCompat="@drawable/hot_face_svgrepo_com" />
+
+    <ImageButton
+        android:id="@+id/hug"
+        android:layout_width="68dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="342dp"
+        android:layout_marginBottom="189dp"
+        app:srcCompat="@drawable/hugging_face_svgrepo_com" />
+
+    <ImageButton
+        android:id="@+id/bleed"
+        android:layout_width="68dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="190dp"
+        app:srcCompat="@drawable/pleading_face_svgrepo_com" />
+
+    <ImageButton
+        android:id="@+id/pounding"
+        android:layout_width="68dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="190dp"
+        app:srcCompat="@drawable/pouting_face_svgrepo_com" />
+</RelativeLayout>
